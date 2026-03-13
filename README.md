@@ -1,13 +1,15 @@
 # appstore-details
 
 An agent skill that reads your Apple app project and generates 
-complete App Store Connect metadata ready to copy and paste.
+complete App Store Connect metadata and In-App Purchase details 
+ready to copy and paste.
 
 Built by Chad Smith — Di Nerd Apps LLC
 
-## What It Does
+## Commands
 
-Reads your entire Xcode project codebase and generates:
+### `/appstore-details`
+Generates complete App Store Connect metadata:
 
 - App Name (30 chars)
 - Subtitle (30 chars)
@@ -17,28 +19,41 @@ Reads your entire Xcode project codebase and generates:
 - Keywords (100 chars)
 - App Review Notes (4000 chars)
 
-All fields follow Apple's guidelines, avoid rejection triggers,
-and are optimized for search and conversion.
+### `/appstore-iap`
+Generates In-App Purchase details for every IAP found in the project:
+
+- Reference Name (64 chars)
+- Product ID (100 chars)
+- Type (Consumable / Non-Consumable / Subscription)
+- Display Name (35 chars)
+- Description (55 chars)
+- Review Notes (4000 chars)
+
+Outputs one block per IAP found in your codebase automatically.
 
 ## Installing
 ```bash
-npx skills add https://github.com/YOUR_USERNAME/appstore-details --skill appstore-details
+npx skills add https://github.com/DiNerdyYawdie/appstore-details --skill appstore-details
 ```
 
 ## Using
 
-Inside your Xcode project folder in Claude Code:
+Navigate to your Xcode project folder in Claude Code then run either command:
 ```
 /appstore-details
 ```
+```
+/appstore-iap
+```
 
-That's it. Claude reads your project and outputs everything 
-ready to paste into App Store Connect.
+Claude reads your entire project codebase and outputs everything 
+ready to paste into App Store Connect. No manual data entry needed.
 
 ## Requirements
 
 - Claude Code
-- An Xcode project with a CLAUDE.md file (recommended)
+- An Xcode project
+- CLAUDE.md file in your project root (recommended)
 
 ## License
 
