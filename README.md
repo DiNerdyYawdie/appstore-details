@@ -11,6 +11,8 @@ Built by Di Nerd Apps LLC
 ### `/appstore-details`
 Reads your entire project and generates all App Store Connect metadata.
 
+<img width="581" height="243" alt="image" src="https://github.com/user-attachments/assets/ae3730be-b004-4a74-a424-f76771aad3cb" />
+
 **Example output for a fitness tracking app:**
 ```
 APP NAME (20/30):
@@ -18,7 +20,11 @@ FitTrack – Workout Logger
 
 SUBTITLE (28/30):
 Log Workouts. Track Progress.
+```
 
+<img width="1000" height="450" alt="image" src="https://github.com/user-attachments/assets/45c561e5-858e-41d2-a984-bf7ac7151ed0" />
+
+```
 PROMOTIONAL TEXT (156/170):
 Now with custom workout templates. Build your plan once and repeat it 
 every week with one tap.
@@ -55,6 +61,9 @@ Plans screen and use sandbox environment to complete the purchase.
 ### `/appstore-iap`
 Reads your StoreKit configuration and generates IAP details for every 
 product found in the project.
+
+
+<img width="673" height="368" alt="image" src="https://github.com/user-attachments/assets/65463733-1c63-4992-84b4-8ac3c27267cb" />
 
 **Example output for a fitness app with a pro unlock:**
 ```
