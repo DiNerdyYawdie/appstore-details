@@ -25,6 +25,7 @@ Log Workouts. Track Progress.
 ```
 
 <img width="1000" height="450" alt="image" src="https://github.com/user-attachments/assets/45c561e5-858e-41d2-a984-bf7ac7151ed0" />
+
 ```
 PROMOTIONAL TEXT (156/170):
 Now with custom workout templates. Build your plan once and repeat it 
@@ -66,6 +67,7 @@ product found in the project.
 <img width="673" height="368" alt="image" src="https://github.com/user-attachments/assets/65463733-1c63-4992-84b4-8ac3c27267cb" />
 
 **Example output for a fitness app with a pro unlock:**
+
 ```
 IAP #1
 REFERENCE NAME (20/64):
